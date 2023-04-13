@@ -4,7 +4,7 @@ import pytesseract
 from PIL import Image
 import openai
 
-api_key = "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"
+api_key = "API_KEY"
 openai.api_key = api_key
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
